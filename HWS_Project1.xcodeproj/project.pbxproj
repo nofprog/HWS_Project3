@@ -13,6 +13,16 @@
 		3CBC2B1325E8DC3400E36537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC2B1125E8DC3400E36537 /* Main.storyboard */; };
 		3CBC2B1525E8DC3500E36537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC2B1425E8DC3500E36537 /* Assets.xcassets */; };
 		3CBC2B1825E8DC3500E36537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC2B1625E8DC3500E36537 /* LaunchScreen.storyboard */; };
+		3CBC2B2B25E8DF8400E36537 /* 03.webp in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC2B2125E8DF8400E36537 /* 03.webp */; };
+		3CBC2B2C25E8DF8400E36537 /* 02.webp in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC2B2225E8DF8400E36537 /* 02.webp */; };
+		3CBC2B2D25E8DF8400E36537 /* 09.webp in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC2B2325E8DF8400E36537 /* 09.webp */; };
+		3CBC2B2E25E8DF8400E36537 /* 05.webp in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC2B2425E8DF8400E36537 /* 05.webp */; };
+		3CBC2B2F25E8DF8400E36537 /* 04.webp in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC2B2525E8DF8400E36537 /* 04.webp */; };
+		3CBC2B3025E8DF8400E36537 /* 08.webp in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC2B2625E8DF8400E36537 /* 08.webp */; };
+		3CBC2B3125E8DF8400E36537 /* 07.webp in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC2B2725E8DF8400E36537 /* 07.webp */; };
+		3CBC2B3225E8DF8400E36537 /* 06.webp in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC2B2825E8DF8400E36537 /* 06.webp */; };
+		3CBC2B3325E8DF8400E36537 /* 10.webp in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC2B2925E8DF8400E36537 /* 10.webp */; };
+		3CBC2B3425E8DF8400E36537 /* 01.webp in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC2B2A25E8DF8400E36537 /* 01.webp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		3CBC2B1425E8DC3500E36537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CBC2B1725E8DC3500E36537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CBC2B1925E8DC3500E36537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CBC2B2125E8DF8400E36537 /* 03.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 03.webp; sourceTree = "<group>"; };
+		3CBC2B2225E8DF8400E36537 /* 02.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 02.webp; sourceTree = "<group>"; };
+		3CBC2B2325E8DF8400E36537 /* 09.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 09.webp; sourceTree = "<group>"; };
+		3CBC2B2425E8DF8400E36537 /* 05.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 05.webp; sourceTree = "<group>"; };
+		3CBC2B2525E8DF8400E36537 /* 04.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04.webp; sourceTree = "<group>"; };
+		3CBC2B2625E8DF8400E36537 /* 08.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 08.webp; sourceTree = "<group>"; };
+		3CBC2B2725E8DF8400E36537 /* 07.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 07.webp; sourceTree = "<group>"; };
+		3CBC2B2825E8DF8400E36537 /* 06.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 06.webp; sourceTree = "<group>"; };
+		3CBC2B2925E8DF8400E36537 /* 10.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10.webp; sourceTree = "<group>"; };
+		3CBC2B2A25E8DF8400E36537 /* 01.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = 01.webp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +83,26 @@
 				3CBC2B1425E8DC3500E36537 /* Assets.xcassets */,
 				3CBC2B1625E8DC3500E36537 /* LaunchScreen.storyboard */,
 				3CBC2B1925E8DC3500E36537 /* Info.plist */,
+				3CBC2B2025E8DF8400E36537 /* Contents */,
 			);
 			path = HWS_Project1;
+			sourceTree = "<group>";
+		};
+		3CBC2B2025E8DF8400E36537 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				3CBC2B2125E8DF8400E36537 /* 03.webp */,
+				3CBC2B2225E8DF8400E36537 /* 02.webp */,
+				3CBC2B2325E8DF8400E36537 /* 09.webp */,
+				3CBC2B2425E8DF8400E36537 /* 05.webp */,
+				3CBC2B2525E8DF8400E36537 /* 04.webp */,
+				3CBC2B2625E8DF8400E36537 /* 08.webp */,
+				3CBC2B2725E8DF8400E36537 /* 07.webp */,
+				3CBC2B2825E8DF8400E36537 /* 06.webp */,
+				3CBC2B2925E8DF8400E36537 /* 10.webp */,
+				3CBC2B2A25E8DF8400E36537 /* 01.webp */,
+			);
+			path = Contents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +162,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CBC2B3325E8DF8400E36537 /* 10.webp in Resources */,
+				3CBC2B2D25E8DF8400E36537 /* 09.webp in Resources */,
 				3CBC2B1825E8DC3500E36537 /* LaunchScreen.storyboard in Resources */,
+				3CBC2B3225E8DF8400E36537 /* 06.webp in Resources */,
+				3CBC2B2E25E8DF8400E36537 /* 05.webp in Resources */,
+				3CBC2B3025E8DF8400E36537 /* 08.webp in Resources */,
 				3CBC2B1525E8DC3500E36537 /* Assets.xcassets in Resources */,
+				3CBC2B2B25E8DF8400E36537 /* 03.webp in Resources */,
+				3CBC2B3425E8DF8400E36537 /* 01.webp in Resources */,
+				3CBC2B2C25E8DF8400E36537 /* 02.webp in Resources */,
 				3CBC2B1325E8DC3400E36537 /* Main.storyboard in Resources */,
+				3CBC2B3125E8DF8400E36537 /* 07.webp in Resources */,
+				3CBC2B2F25E8DF8400E36537 /* 04.webp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +344,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Jinapps.HWS-Project1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Jinapps.HWS-Project1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

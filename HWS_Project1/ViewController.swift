@@ -35,6 +35,18 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return pictuers.count
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(pictuers[indexPath.row])
+        
+        //viewControllerを読み込む
+        if let vc = storyboard?.instantiateViewController(identifier: "Detail") as? DetailViewController {
+            //画像をセットする
+            vc.selectedImage = pictuers[indexPath.row]
+            //画面遷移
+            navigationController?.pushViewController(vc, animated: true)
+        }
+    }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)

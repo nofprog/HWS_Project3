@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4CF87525E9CF02008526A1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4CF87425E9CF02008526A1 /* DetailViewController.swift */; };
 		3CBC2B0C25E8DC3400E36537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC2B0B25E8DC3400E36537 /* AppDelegate.swift */; };
 		3CBC2B0E25E8DC3400E36537 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC2B0D25E8DC3400E36537 /* SceneDelegate.swift */; };
 		3CBC2B1025E8DC3400E36537 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC2B0F25E8DC3400E36537 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C4CF87425E9CF02008526A1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3CBC2B0825E8DC3400E36537 /* HWS_Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWS_Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CBC2B0B25E8DC3400E36537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CBC2B0D25E8DC3400E36537 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				3CBC2B0B25E8DC3400E36537 /* AppDelegate.swift */,
 				3CBC2B0D25E8DC3400E36537 /* SceneDelegate.swift */,
 				3CBC2B0F25E8DC3400E36537 /* ViewController.swift */,
+				3C4CF87425E9CF02008526A1 /* DetailViewController.swift */,
 				3CBC2B1125E8DC3400E36537 /* Main.storyboard */,
 				3CBC2B1425E8DC3500E36537 /* Assets.xcassets */,
 				3CBC2B1625E8DC3500E36537 /* LaunchScreen.storyboard */,
@@ -91,16 +94,16 @@
 		3CBC2B2025E8DF8400E36537 /* Contents */ = {
 			isa = PBXGroup;
 			children = (
-				3CBC2B2125E8DF8400E36537 /* 03.webp */,
-				3CBC2B2225E8DF8400E36537 /* 02.webp */,
-				3CBC2B2325E8DF8400E36537 /* 09.webp */,
-				3CBC2B2425E8DF8400E36537 /* 05.webp */,
-				3CBC2B2525E8DF8400E36537 /* 04.webp */,
-				3CBC2B2625E8DF8400E36537 /* 08.webp */,
-				3CBC2B2725E8DF8400E36537 /* 07.webp */,
-				3CBC2B2825E8DF8400E36537 /* 06.webp */,
-				3CBC2B2925E8DF8400E36537 /* 10.webp */,
 				3CBC2B2A25E8DF8400E36537 /* 01.webp */,
+				3CBC2B2225E8DF8400E36537 /* 02.webp */,
+				3CBC2B2125E8DF8400E36537 /* 03.webp */,
+				3CBC2B2525E8DF8400E36537 /* 04.webp */,
+				3CBC2B2425E8DF8400E36537 /* 05.webp */,
+				3CBC2B2825E8DF8400E36537 /* 06.webp */,
+				3CBC2B2725E8DF8400E36537 /* 07.webp */,
+				3CBC2B2625E8DF8400E36537 /* 08.webp */,
+				3CBC2B2325E8DF8400E36537 /* 09.webp */,
+				3CBC2B2925E8DF8400E36537 /* 10.webp */,
 			);
 			path = Contents;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				3CBC2B1025E8DC3400E36537 /* ViewController.swift in Sources */,
 				3CBC2B0C25E8DC3400E36537 /* AppDelegate.swift in Sources */,
 				3CBC2B0E25E8DC3400E36537 /* SceneDelegate.swift in Sources */,
+				3C4CF87525E9CF02008526A1 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

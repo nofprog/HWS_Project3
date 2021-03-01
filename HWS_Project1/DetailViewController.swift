@@ -20,12 +20,29 @@ class DetailViewController: UIViewController {
         //navigationBarのタイトルを大きくする
         navigationController?.navigationBar.prefersLargeTitles = true
         
-        navigationItem.largeTitleDisplayMode = .always
+        navigationItem.largeTitleDisplayMode = .never
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
         
         if let imageToLoad = selectedImage {
             imageView.image = UIImage(named: imageToLoad)
         }
 
+    }
+    
+    //shareButtonをタップした時のメソッド
+    @objc func shareTapped(){
+        guard let image = imageView.image?.jpegData(compressionQuality: 0.8) else {
+            print("No image")
+            return
+        }
+        
+        //UIActivityViewControllerを生成
+        let vc = UIActivityViewController(activityItems: [image], applicationActivities: [])
+        
+        //UIActivityViewControllerをどこに固定するか、どこから表示するか
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(vc, animated: true)
     }
     
     override func viewWillAppear(_ animated: Bool) {
